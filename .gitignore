@@ -1,0 +1,12 @@
+# build products
+rtt/echo_server
+rtt/echo_client
+antagonist/membw
+rdma/rdma_pingpong
+*.o
+*.dSYM/
+# never commit measurements into the code repo
+*.csv
+*.log
+data/
+figures/
